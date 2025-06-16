@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Square Calculator</title>
+</head>
+<body>
+
+<script>
+  var number = parseFloat(prompt("Enter a number:"));
+  var square = number * number;
+  alert("The square of " + number + " is " + square);
+</script>
+
+</body>
+</html>

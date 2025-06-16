@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reverse a String</title>
+</head>
+<body>
+
+<script>
+  var inputString = prompt("Enter a string:");
+  var reversedString = inputString.split("").reverse().join("");
+
+  alert("Reversed string: " + reversedString);
+</script>
+
+</body>
+</html>

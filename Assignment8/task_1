@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sum of Two Numbers</title>
+</head>
+<body>
+
+<script>
+  var num1 = prompt("Enter the first number:"); 
+  var num2 = prompt("Enter the second number:");
+  var sum = parseFloat(num1) + parseFloat(num2);
+  alert("The sum is: " + sum);
+</script>
+
+</body>
+</html>

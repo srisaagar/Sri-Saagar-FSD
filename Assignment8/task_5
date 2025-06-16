@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Current Date and Time</title>
+</head>
+<body>
+
+<script>
+  var currentDateTime = new Date();
+
+  document.write("Current Date and Time: " + currentDateTime);
+</script>
+
+</body>
+</html>
