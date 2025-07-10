@@ -1,0 +1,12 @@
+{
+  "name": "dynamic-import-assignment",
+  "version": "1.0.0",
+  "description": "Assignment 2: Dynamic Imports using import() in Node.js",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "vinay",
+  "license": "MIT"
+}
