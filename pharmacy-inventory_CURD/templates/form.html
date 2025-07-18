@@ -1,0 +1,20 @@
+<div class="mb-3">
+  <label class="form-label">Medicine ID</label>
+  <input type="text" name="medicine_id" class="form-control" value="{{ med.medicine_id if med else '' }}" required>
+</div>
+<div class="mb-3">
+  <label class="form-label">Name</label>
+  <input type="text" name="name" class="form-control" value="{{ med.name if med else '' }}" required>
+</div>
+<div class="mb-3">
+  <label class="form-label">Batch No</label>
+  <input type="text" name="batch_no" class="form-control" value="{{ med.batch_no if med else '' }}" required>
+</div>
+<div class="mb-3">
+  <label class="form-label">Expiry Date</label>
+  <input type="date" name="expiry_date" class="form-control" value="{{ med.expiry_date if med else '' }}" required>
+</div>
+<div class="mb-3">
+  <label class="form-label">Quantity</label>
+  <input type="number" name="quantity" class="form-control" value="{{ med.quantity if med else '' }}" min="0" required>
+</div>
